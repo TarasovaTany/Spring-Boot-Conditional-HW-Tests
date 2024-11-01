@@ -1,0 +1,9 @@
+version: "2.4.1"
+services:
+  app:
+    build: ./
+    container_name: springbootauthorization
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/myapp
